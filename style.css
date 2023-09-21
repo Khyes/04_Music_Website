@@ -78,3 +78,33 @@
     width: 80px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 600px) {
+    .nav-bar ul {
+        display: none;
+    }
+
+    .left-col h1 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .left-col {
+        margin-top: -90px;
+    }
+
+    .right-col {
+        position: relative;
+        bottom: 60px;
+        height: 100vh;
+    }
+
+    .right-col p {
+        font-size: 10px;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+    }
+}
