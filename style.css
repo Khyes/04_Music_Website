@@ -86,6 +86,7 @@
 
     .container {
         overflow:hidden;
+        height: 100vh;
     }
 
     .left-col h1 {
